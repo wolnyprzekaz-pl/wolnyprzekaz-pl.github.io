@@ -183,3 +183,8 @@ h3.huge.wolnyprzekaz.subsubheader {
 #wolnyprzekaz-pl > .ui.menu .item:before {
   width: 0 !important;
 }
+
+#wolnyprzekaz-pl .ui.stackable.grid {
+  margin-right: 0.1rem !important;
+  margin-left: 0.1rem !important;
+}
