@@ -33,14 +33,14 @@
   border-bottom: 1px solid #DDDDDD;
 }
 
-.ui.inverted.black.title.header.segment {
+.ui.inverted.black.title.segment {
   background-attachment: fixed;
   background-repeat: repeat;
 }
-.ui.inverted.black.title.header.segment {
+.ui.inverted.black.title.segment {
   background-image: url('../css/images/footer_lodyas/footer_lodyas_dark.png');
 }
-.ui.inverted.white.title.header.segment {
+.ui.inverted.white.title.segment {
   background-image: url('../css/images/footer_lodyas/footer_lodyas_light.png');
 }
 
@@ -58,6 +58,15 @@
 }
 .header.title.segment h1.post.title {
   margin-top: 0.2em;
+}
+.post.content {
+  font-weight: lighter;
+  font-size: 0.8em;
+  max-width: 600px;
+  font-style: italic;
+}
+.gray.content {
+    color: #EEEEEE;
 }
 .header.title.segment .post.subheader {
   max-width: 700px;
@@ -161,6 +170,12 @@ h3.huge.wolnyprzekaz.subsubheader {
 }
 .footer {
   clear: both;
+}
+.footer .ui.divider {
+  visibility: hidden;
+}
+.footer .license.info {
+  color: gray;
 }
 .white {
   color: white !important;
