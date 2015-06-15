@@ -99,6 +99,10 @@
   background-color: #c4d0e6;
 }
 
+.ui.image.segment .bottom.attached.label {
+  margin-left: 0;
+}
+
 .header.segment h1 {
   margin-bottom: 0em;
 }
